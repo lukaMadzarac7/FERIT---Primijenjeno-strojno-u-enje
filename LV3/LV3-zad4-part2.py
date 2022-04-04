@@ -8,7 +8,6 @@ img_new = img.copy()
 
 rows, cols = img.shape
 img_new = np.zeros((cols, rows))
-rows, cols = img.shape
 
 for i in range(rows):
     for j in range(cols):
